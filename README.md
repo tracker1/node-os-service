@@ -1,6 +1,14 @@
 
 # os-service
 
+Forked from original repository in order to publish various fixes to NPM.  
+I bumped the minor version as the first commit to this fork, I will also be 
+integrating other fixes from upstream PRs.
+
+I do not have issues enabled, but welcome any reasonable pull requests.
+
+-----
+
 This module implements the ability to run a [Node.js][nodejs] based JavaScript
 program as a native Windows or Linux service.
 
@@ -15,7 +23,7 @@ This module is installed using [node package manager (npm)][npm]:
 
 It is loaded using the `require()` function:
 
-    var service = require ("os-service");
+    var service = require ("@tracker1/os-service");
 
 A program can then be added, removed and run as a service:
 
